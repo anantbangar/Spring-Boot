@@ -37,7 +37,7 @@ public class ExcelToDBController
 		return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Please upload excel file...");
 	}
 	
-	@GetMapping
+	@GetMapping("/showAllEmp")
 	public ResponseEntity<List<Emp>> getAllEmp()
 	{
 		List<Emp> allEmp = this.empService.gellAllEmp();
