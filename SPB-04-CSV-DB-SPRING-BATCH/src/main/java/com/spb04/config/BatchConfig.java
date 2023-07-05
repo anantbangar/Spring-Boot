@@ -27,7 +27,7 @@ import org.springframework.core.io.FileSystemResource;
 import com.spb04.entities.Organization;
 
 @Configuration
-//We can use this annotaion in Spb04CsvDbSpringBatchApplication class
+//We can use @EnableBatchProcessing annotaion in Spb04CsvDbSpringBatchApplication class
 //@EnableBatchProcessing
 public class BatchConfig 
 {
