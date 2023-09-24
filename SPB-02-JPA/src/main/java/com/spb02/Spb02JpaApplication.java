@@ -60,7 +60,7 @@ public class Spb02JpaApplication {
 		//Update -end
 		*/
 		
-		
+		/*
 		//Select -start
 		//findById(id)
 		Optional<User> findById = userRepository.findById(06);
@@ -81,6 +81,8 @@ public class Spb02JpaApplication {
 		System.out.println("All users using Stream API--> ");
 		findAll.forEach(u->System.out.println(u));
 		//Select -end
+		 * 
+		 */
 		
 		
 		/*
